@@ -91,11 +91,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GiamDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiamDoc.Designer.cs">
+      <DependentUpon>GiamDoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="NhanSu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NhanSu.Designer.cs">
       <DependentUpon>NhanSu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu_CapNhat_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu_CapNhat_NhanVien.Designer.cs">
+      <DependentUpon>NhanSu_CapNhat_NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu_Them_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu_Them_NhanVien.Designer.cs">
+      <DependentUpon>NhanSu_Them_NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanSu_ThemSua_PhongBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanSu_ThemSua_PhongBan.Designer.cs">
+      <DependentUpon>NhanSu_ThemSua_PhongBan.cs</DependentUpon>
     </Compile>
     <Compile Include="NhanVien.cs">
       <SubType>Form</SubType>
@@ -117,12 +141,48 @@
     <Compile Include="TaiChinh.Designer.cs">
       <DependentUpon>TaiChinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="TaiChinh_CapNhat_LuongPhuCaptrenNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaiChinh_CapNhat_LuongPhuCaptrenNhanVien.Designer.cs">
+      <DependentUpon>TaiChinh_CapNhat_LuongPhuCaptrenNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TruongDeAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TruongDeAn.Designer.cs">
+      <DependentUpon>TruongDeAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TruongDeAn_TXS_DeAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TruongDeAn_TXS_DeAn.Designer.cs">
+      <DependentUpon>TruongDeAn_TXS_DeAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="TruongPhong.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TruongPhong.Designer.cs">
       <DependentUpon>TruongPhong.cs</DependentUpon>
     </Compile>
+    <Compile Include="TruongPhong_TXS_PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TruongPhong_TXS_PhanCong.Designer.cs">
+      <DependentUpon>TruongPhong_TXS_PhanCong.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="NhanSu.resx">
+      <DependentUpon>NhanSu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu_CapNhat_NhanVien.resx">
+      <DependentUpon>NhanSu_CapNhat_NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu_ThemSua_PhongBan.resx">
+      <DependentUpon>NhanSu_ThemSua_PhongBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanSu_Them_NhanVien.resx">
+      <DependentUpon>NhanSu_Them_NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +195,27 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="QLTrucTiep.resx">
+      <DependentUpon>QLTrucTiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiChinh.resx">
+      <DependentUpon>TaiChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiChinh_CapNhat_LuongPhuCaptrenNhanVien.resx">
+      <DependentUpon>TaiChinh_CapNhat_LuongPhuCaptrenNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongDeAn.resx">
+      <DependentUpon>TruongDeAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongDeAn_TXS_DeAn.resx">
+      <DependentUpon>TruongDeAn_TXS_DeAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongPhong.resx">
+      <DependentUpon>TruongPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TruongPhong_TXS_PhanCong.resx">
+      <DependentUpon>TruongPhong_TXS_PhanCong.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">
       <SubType>Designer</SubType>
     </None>
